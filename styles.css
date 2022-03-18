@@ -109,7 +109,7 @@ body {
     .top-heading {
     /* background-color: #888e95; */
     color: #E0E3E9;
-    width: 200px;
+    width: 160px;
     height: 40px;
     text-align: center;
     /* padding: 1px 20px; */
@@ -195,38 +195,103 @@ body {
          display: flex;
      }
      
-    .envelope{
-        margin-top: 2px;
-        color: #ffffff;
-        background-color: #333;
-        width: 43px;
-        height: 43px;
-        border-radius: 3px;
-     }
-     
-     .envelope:hover{
-        background-color: #6d5d62;
-     }
-     
-     .square{
-         margin-right: 10px;
-     }
+         
+         
+     .square{ 
+          margin-right: 10px;
+      }
      
      a .square{
-         color: #333;
-         }
+        color: #333;
+        }
      
      a .square:hover{
          color: #6d5d62;
      }
      
-     /* .insta{ */
-         /* margin: 5px 0 0 7.5px; */
-     /* } */
+    .envelope-icon{
+        margin: 5px 0 0 7.5px;
+        }
 
      /* ABOUT ME PAGE */
 
-     .coach-pic{
-        height: 275px;
-        width: 400px;
+    .about-middle-section {
+        /* display: grid; */
+        /* justify-content: right; */ 
+        height: 50px;
+        /* background-attachment: fixed; */
+        /* background-position: center; */
+        /* background-size: cover; */
+        /* background-repeat: no-repeat; */
+        padding: 10px;
+    }
+    
+    /* .about-top-heading { */
+        /* background-color: #888e95; */
+        /* color: #E0E3E9; */
+        /* width: 160px; */
+        /* height: 40px; */
+        /* text-align: center; */
+        /* padding: 1px 20px; */
+        /* border-radius: 2px; */
+        /* } */
+
+    
+    .about-bottom-heading {
+        background-color: #888e95;
+        color: #3b4550;
+        width: 100%;
+        height: 60px;
+        text-align: center;
+        /* padding: 10px 20px; */
+        /* margin-top: 10px; */
+        border-radius: 2px;
+        }
+
+        .picture-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            /* grid-column: 1/5; */
+            /* grid-row: 1; */
+            /* border-top: 60px solid #4E1A3D; */
+            /* padding: 10px;  */
+        }
+
+            
+
+    /* .about-top-heading { */
+    /* display: flex; */
+    /* justify-content: right; */
+    /* background-color: #888e95; */
+    /* color: #3b4550; */
+    /* width: 200px; */
+    /* height: 40px; */
+    /* text-align: center; */
+    /* padding: 1px 20px; */ */
+    /* border-radius: 2px; */ */
+    /* } */
+
+     .middle-section{
+        height: 75px;
+        /* width: 400px; */
      }
+
+     .still-learning{
+         height: 275px;
+         width: 400px;
+     }
+
+     /* CONTACT PAGE */
+
+     .contact-main-section {
+        display: flex;
+        justify-content: right;
+    background-image: url(assets/cairn.JPG);
+    height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;  
+    background-repeat: no-repeat;
+    padding: 100px;
+    }

@@ -42,16 +42,16 @@ body {
         
     /* } */
     
-    .logo {
+    /* .logo { */
     /* display: flex; */
     /* justify-content: center; */
     /* margin-bottom: 42px; */
-    }
+    /* } */
     
-    .logo img {
+    /* .logo img { */
     /* width: 216px; */
     /* height: 100%; */
-    }
+    /* } */
     
     .link-wrapper {
     display: flex;
@@ -279,9 +279,9 @@ body {
         /* width: 400px; */
      }
 
-     .still-learning{
+     /* .still-learning{ */
 
-    }
+    /* } */
 
      /* CONTACT PAGE */
 
